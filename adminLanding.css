@@ -1,0 +1,181 @@
+.sidebarmain {
+  background-color: #343434;
+}
+.nav-link {
+  color: black !important;
+}
+.logoAndText {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  padding: 8px;
+  justify-content: flex-start !important;
+  position: relative;
+  font-size: 2rem;
+}
+
+.adminImg {
+  width: 134%;
+  height: 40px;
+  margin-left: -9%;
+  border-radius: 10px;
+}
+.logoAndText::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -50%;
+  border-bottom: 1px solid white;
+  width: 187%;
+}
+.textClass > h6 {
+  margin-top: 15%;
+}
+.textClass > h6,
+h5,
+p {
+  margin-left: 8px;
+  font-size: 1rem !important;
+}
+.imageClass > img {
+  border-radius: 10px;
+}
+.profileClass {
+  margin-left: 10%;
+  position: relative;
+  font-size: 2rem;
+}
+
+.profileClass::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -50%;
+  border-bottom: 1px solid white;
+  width: 204%;
+}
+
+.sidebarMainDiv {
+  margin-top: 20px;
+}
+.nav-item {
+  width: 120%;
+  margin-top: 10px;
+}
+
+.nav-item > a > i {
+  margin-left: 20px;
+}
+.nav-link.active {
+  background-color: #ffc30f !important;
+}
+
+.topHeader {
+  background-color: #eaeaea;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 0px !important;
+}
+.headerFirstSection {
+  display: flex;
+}
+.headerSecondSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.headerSecondSection > a > p {
+  color: black;
+  margin-top: 15px;
+}
+
+.mb6 {
+  margin-bottom: 6%;
+}
+
+@media only screen and (max-width: 1260px) {
+  .userdp {
+    margin-left: 25%;
+  }
+}
+/* Profile Updates End  */
+
+/* Start of Properties For The Form Section */
+.m3 {
+  margin-top: 3%;
+}
+
+.margin {
+  margin-bottom: 20%;
+}
+#new {
+  font-weight: bolder !important;
+  border: 2px solid black !important;
+}
+#output {
+  border: 4px solid white !important;
+}
+
+.All-Fields {
+  background-color: white;
+  height: 88%;
+}
+
+.m2 {
+  margin-top: 2%;
+}
+
+#data {
+  display: flex;
+  justify-content: center;
+  box-shadow: #ff5454;
+  border-color: #ff5454;
+}
+
+#new-form {
+  background-color: #eaebec;
+  color: black;
+  margin-top: 30%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+#ml70 {
+  margin-left: 70%;
+}
+
+#mail {
+  background-color: #eaebec;
+  color: black "
+}
+
+#work
+{
+  background-color: #EAEBEC;
+   color:#5E6278";
+}
+
+#username {
+  background-color: #eaebec;
+  color: black "
+}
+
+#security
+{
+  background-color: #EAEBEC;
+   color:#5E6278";
+}
+
+select {
+  appearance: none;
+  border: none;
+  background: rgb(0, 0, 0) url("../images/DropDown.svg") no-repeat;
+  background-position: right 3px top 50%;
+}
+
+/* End of Properties For The Form Section */
+
+

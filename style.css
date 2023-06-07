@@ -1,0 +1,315 @@
+body {
+  background-image: url(back.png);
+}
+
+.form-control:focus {
+  border-color: #ffc107 !important;
+  box-shadow: #ffc107 !important;
+}
+
+.form-check-input:focus {
+  border-color: #ffc107 !important;
+  box-shadow: #ffc107 !important;
+}
+
+td {
+  text-align: center;
+}
+
+.form-switch {
+  padding-left: 8em !important;
+}
+
+/* .form-control::placeholder { 
+  color: black !important;
+  font-weight: 600;
+  /* font-family:Poppins; */
+/* opacity: 1 !important;  */
+/* }  */
+
+/* Start of Properties For The Form Section */
+.m3 {
+  margin-top: 3%;
+}
+
+.margin {
+  margin-bottom: 20%;
+}
+#new {
+  font-weight: bolder !important;
+  border: 2px solid black !important;
+}
+#output {
+  border: 4px solid white !important;
+}
+
+.All-Fields {
+  background-color: white;
+  height: 88%;
+}
+
+.m2 {
+  margin-top: 2%;
+}
+
+/* Start of Reset Password Styling */
+/* design for login screen  */
+
+.MainScreen {
+  background-color: white;
+  padding: 6%;
+  margin-left: 25%;
+  border-radius: 12px;
+  width: 35.3333% !important;
+  height: 80% !important;
+  margin-top: 3% !important;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px -2px,
+    rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px !important;
+  border-radius: 12px;
+  margin-left: 0;
+}
+.docenter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4%;
+}
+.fieldColor {
+  background-color: #cbcbcb !important;
+  margin-bottom: 6%;
+  height: 50px !important;
+}
+.fieldsAndButton {
+  width: 85%;
+  margin: auto;
+
+  /* border: 5px solid blue !important; */
+}
+.gap-2 {
+  margin-top: 5%;
+}
+.btn-block {
+  height: 50px !important;
+}
+.doEnd {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4%;
+}
+.btn-link {
+  text-decoration: none !important;
+}
+
+.w50 {
+  width: 50%;
+  margin: auto;
+}
+
+.M17 {
+  margin-top: 17%;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.mt10 {
+  margin-top: 10%;
+}
+
+.mt2 {
+  margin-top: 2%;
+}
+
+.adjustLogo {
+  margin-bottom: 5%;
+  height: 40px;
+  margin-left: 23%;
+}
+
+
+/* Start of Image Divs in Create Company Styling */
+.parent {
+  margin: 1rem;
+  /* padding: 2rem 2rem; */
+  text-align: center;
+}
+.child {
+  display: inline-block;
+
+  padding: 1rem 1rem;
+  /* margin-right: "20%"; */
+  margin-left: "40%";
+  /* vertical-align: middle; */
+}
+
+/* End of Image Divs in Create Company Styling */
+
+.form-control:focus {
+  border-color: #ff5454 !important;
+  box-shadow: 0 0 5px rgb(197, 59, 17) !important;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+  /* margin-top: 10px; */
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.ButtonandField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  float: right;
+  margin-top: 5px !important;
+}
+.SearchDiv {
+  width: 61% !important;
+  float: right;
+  margin-top: 5px;
+}
+
+.headerSecondSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.headerSecondSection > a > p {
+  color: black;
+  margin-top: 15px;
+}
+.dropDownField {
+  margin-top: -8px;
+  border: 0.5px solid black;
+}
+
+.heroSectiondropDown {
+  margin-top: 15px;
+}
+
+.form-check-input:checked {
+  background-color: green !important;
+  border-color: green !important;
+}
+
+.form-check-input:focus {
+  border-color: #ff5454 !important;
+  box-shadow: 0 0 5px rgb(197, 59, 17) !important;
+}
+
+td {
+  text-align: center;
+}
+
+.form-switch {
+  padding-left: 8em !important;
+}
+
+/* .form-control::placeholder { 
+  color: black !important;
+  font-weight: 600;
+  /* font-family:Poppins; */
+  /* opacity: 1 !important;  */
+/* }  */
+
+
+* Start of Properties For The Form Section */
+.m3
+{
+  margin-top:3%;
+}
+
+
+.margin
+{
+  margin-bottom: 20%;
+}
+#new
+{
+  font-weight:bolder !important;
+  border: 2px solid black !important;
+}
+#output
+{
+  border:4px solid white !important;
+}
+
+.All-Fields
+{
+  background-color:white; 
+  height:88%;
+}
+
+.m2
+{
+  margin-top:2%;
+}
+
+#data
+{
+  display: flex;
+  justify-content:center;
+   box-shadow: #FF5454; 
+   border-color:#FF5454 
+}
+
+#new-form
+{
+  background-color: #EAEBEC; 
+  color:black;
+   margin-top:30%
+}
+
+.flex
+{
+  display: flex; 
+  justify-content:center;
+}
+
+#ml70
+{
+  margin-left:70%;
+}
+
+#mail
+{
+  background-color: #EAEBEC; 
+  color:black"
+}
+
+#work
+{
+  background-color: #EAEBEC;
+   color:#5E6278"
+}
+
+#username
+{
+  background-color: #EAEBEC; 
+  color:black"
+}
+
+#security
+{
+  background-color: #EAEBEC;
+   color:#5E6278"
+}
+
+select {
+  appearance: none;
+  border: none;
+  background: rgb(0, 0, 0) url("../images/DropDown.svg") no-repeat;
+  background-position: right 3px top 50%;
+}
+
+
+/* End of Properties For The Form Section */

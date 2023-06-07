@@ -1,0 +1,37 @@
+.navColor {
+  background-color: #ffc107;
+}
+
+.logoImg {
+  height: 56px;
+  width: 100% !important;
+  border-radius: 12px;
+}
+
+.flx {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardFlx {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainCard {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4%;
+}
+
+.imgSlider {
+  height: 500px;
+  width: 100%;
+}
+
+@media screen and (min-width: 250px) and (max-width: 800px) {
+  .card {
+    width: 100%;
+    margin-left: 10%;
+  }
+}
