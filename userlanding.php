@@ -57,7 +57,7 @@
             <a class="nav-link" href="#">Availaible Hotels</a>
 
             <a class="nav-link" href="../checkInn/login.php">Login</a>
-            <a class="nav-link" href="#">Sign Up</a>
+            <a class="nav-link" href="signup.php">Sign Up</a>
           </div>
         </div>
       </div>

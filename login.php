@@ -73,7 +73,7 @@ if (isset($_POST["submit"])) {
       <div class="row fullwidth" >
 
      <div class="col-md-4 col-lg-4 "></div>
-     <div class="col-md-4 col-lg-4 MainScreen ">
+     <div class="col-md-4 col-lg-4 MainScreen " style="background:white">
       <div class="docenter">
 
 </div>
