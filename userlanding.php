@@ -34,7 +34,7 @@
     }
     </style>
   <body>
-    <nav class="navbar navbar-expand-lg navColor">
+    <nav class="navbar navbar-expand-lg navColor" style="background: linear-gradient(to right, #ffc107, #cc2e2e);">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="./checkinn.png" alt="checkinn" class="logoImg" />
@@ -205,7 +205,7 @@ if (mysqli_num_rows($result) > 0) {
                         <p class="card-text" style="text-align:center"><b>Ratings:</b> ' . $row['h_ratings'] . '</p>
                         <p class="card-text" style="text-align:center"><b>Price:</b> $' . $row['h_price'] . ' (Per-Day) </p>
                         <p class="card-text" style="text-align:center"><b>Location:</b> ' . $row['h_location'] . '</p>
-                        <a href="#" class="btn btn-warning bookBtn">Book Now</a>
+                        <a href="booking.php" class="btn btn-warning bookBtn">Book Now</a>
                     </div>
                 </div>
             </div>';

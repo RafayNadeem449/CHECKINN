@@ -24,6 +24,7 @@ ini_set('display_errors', 1);
 </head>
 
 
+<body style="background: linear-gradient(to right, #ffc107, #cc2e2e);">
 
 <?php
 
@@ -68,9 +69,8 @@ if (isset($_POST["submit"])) {
 
 
 
-<body>
 
-    <div class="row fullwidth">
+      <div class="row fullwidth" >
 
      <div class="col-md-4 col-lg-4 "></div>
      <div class="col-md-4 col-lg-4 MainScreen ">
